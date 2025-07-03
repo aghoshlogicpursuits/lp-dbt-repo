@@ -1,0 +1,17 @@
+Version:2
+
+sources:
+  - name: : airbnb
+   schema: raw
+   tables:
+    Generate model
+    - name: Listings
+    identifier: raw_listings
+
+    Generate model
+    - name: hosts
+    identifier: raw_hosts
+
+    Generate model
+    - name: reviews
+    identifier: raw_reviews

@@ -2,7 +2,7 @@ WITH all_hosts AS (
     SELECT
         *
     FROM
-       DATA_ENG_DBT.RAW.RAW_HOSTS
+       airbnb.RAW.RAW_HOSTS
 )
 SELECT
     id AS host_id,
