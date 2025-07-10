@@ -13,4 +13,3 @@ SELECT
     updated_at
 FROM
     all_listings
-

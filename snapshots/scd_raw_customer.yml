@@ -1,0 +1,12 @@
+version: 2
+
+snapshots:
+  - name: snap1
+    relation: source('airbnb', 'hosts')
+    config:
+      target_schema: dev
+      strategy: 'check'
+      unique_key: 'customer_ID'
+      updated_at: 'updated_at'
+      check_cols: ['Customer_state']
+      invalidate_hard_delete: true
